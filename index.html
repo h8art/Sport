@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<table id="main">
+		<tr >
+			<td class="position"><span></span></td>
+			<td class="team head" onclick="sortName();"><span>Команда</span></td>
+			<td class="col head sort" onclick="sortMatches();"><span>М</span></td>
+			<td class="col head sort mob2" onclick="sortWins();"><span>В</span></td>
+			<td class="col head sort mob2"onclick="sortDraw();"><span>Н</span></td>
+			<td class="col head sort mob2"onclick="sortLose();"><span>П</span></td>
+			<td class="col head sort mob1"><span>Заб</span></td>
+			<td class="col head sort mob1"><span>Проп</span></td>
+			<td class="col head points sort"><span>О</span></td>
+		</tr>
+
+	</table>
+	<p><b>М</b> – матчи, <b>В</b> – выигрыши, <b>Н</b> – ничьи, <b>П</b> – проигрыши, <b>Заб</b> – забитые голы, <b>Проп</b> – пропущенные голы, <b>О</b> – очки в турнире</p>
+	<script src='main.js'></script>
+</body>
+</html>

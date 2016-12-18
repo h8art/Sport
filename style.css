@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+body{
+	margin: 18px;
+	font-family: 'Roboto', sans-serif;
+}
+#main{
+	width: 100%;
+	border-spacing: 0px;
+	border-top: 1px solid #d8d8d8;
+}
+.col{
+	width: 50px;
+	
+	border-bottom: 1px solid #d8d8d8;
+}
+.col span{
+	float: right;
+	padding-right: 10px;
+}
+.points{
+	background-color: #F9F9F7;
+	border-bottom: 1px solid #d8d8d8;
+}
+.position{
+	width: 40px;
+	border-bottom: 1px solid #d8d8d8;
+}
+.position span{
+	padding-left: 10px;
+}
+.team{
+	border-bottom: 1px solid #d8d8d8;
+	border-right: 1px solid #d8d8d8;
+	min-width:150px;
+}
+.team span{
+	padding-left: 10px;
+}
+.team a{
+	color: #006496;
+	text-decoration: none;
+}
+.team a:hover{
+	color: #006496;
+	text-decoration: underline;
+}
+.team a:visited{
+	color: #006496;
+	text-decoration: none;
+}
+.team img{
+	padding-right: 3px;
+}
+.head{
+
+	font-weight: 700;
+}
+.head:hover{
+	cursor:pointer;
+}
+.sort{
+	color: #427FA6;
+}
+@media screen and (max-width: 580px){
+	.mob1{
+		display: none;
+	}
+}
+@media screen and (max-width: 480px){
+	.mob2{
+		display: none;
+	}
+}  
